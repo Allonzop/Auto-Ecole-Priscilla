@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Auto-École Priscilla — Permis B, conduite accompagnée et code à Charleville-Mézières</title>
+<meta name="description" content="Auto-École Priscilla, 6 place de la Gare à Charleville-Mézières. Permis B, conduite accompagnée, conduite supervisée, perfectionnement, code en salle et sur internet. 4,9 sur 108 avis Google, à huit minutes à pied du lycée Chanzy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Albert+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23D6246F'/%3E%3Ctext x='16' y='23' font-family='Helvetica,Arial' font-size='18' font-weight='700' fill='%23fff' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --encre:#16141A; --encre-2:#5E5866; --craie:#FBF8FA; --blanc:#ffffff;
+  --rose:#D6246F; --rose-f:#9E1550; --rose-c:#FCE9F1; --or:#D9A520;
+  --ligne:#EFE6EC; --ocre:#B87414; --r:14px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--craie);color:var(--encre);font-family:'Albert Sans',system-ui,sans-serif;font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block;height:auto}
+a{color:inherit}
+h1,h2,h3,.ff{font-family:'Sora','Albert Sans',system-ui,sans-serif;font-weight:700;line-height:1.1;letter-spacing:-.03em}
+.wrap{width:min(1180px,calc(100% - 44px));margin-inline:auto}
+.eyebrow{font-size:12.5px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:var(--rose)}
+
+header{position:sticky;top:0;z-index:60;background:rgba(251,248,250,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--ligne)}
+.hd{display:flex;align-items:center;gap:24px;padding:14px 0}
+.mark{display:flex;align-items:center;gap:12px;text-decoration:none;flex:0 0 auto}
+.disqueA{width:44px;height:44px;border-radius:50%;background:var(--blanc);border:3px solid var(--rose);color:var(--rose);display:grid;place-items:center;font-family:'Sora',sans-serif;font-weight:800;font-size:21px;flex:0 0 auto}
+.mark b{font-family:'Sora',sans-serif;font-size:17px;display:block;line-height:1.15}
+.mark span span{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--encre-2);font-weight:600}
+nav{margin-left:auto;display:flex;gap:24px;align-items:center}
+nav a{text-decoration:none;font-size:15px;font-weight:600;color:var(--encre-2)}
+nav a:hover{color:var(--rose)}
+.btel{background:var(--rose);color:#fff!important;padding:11px 18px;border-radius:999px;font-weight:700;font-size:15px;text-decoration:none;white-space:nowrap}
+.btel:hover{background:var(--rose-f)}
+
+.hero{padding:58px 0 0}
+.hgrid{display:grid;grid-template-columns:1.02fr 1fr;gap:50px;align-items:center}
+h1{font-size:clamp(38px,5vw,60px);margin:16px 0 20px}
+h1 em{font-style:normal;color:var(--rose)}
+.lede{font-size:18.5px;color:var(--encre-2);max-width:42ch}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.b1,.b2{text-decoration:none;font-weight:700;font-size:16px;padding:14px 24px;border-radius:999px}
+.b1{background:var(--encre);color:var(--craie)}
+.b1:hover{background:var(--rose)}
+.b2{border:1.5px solid var(--encre);color:var(--encre)}
+.b2:hover{border-color:var(--rose);color:var(--rose)}
+.hvis img{border-radius:var(--r);box-shadow:0 20px 46px rgba(22,20,26,.18);width:100%;max-width:1140px}
+
+.faits{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--ligne);border:1px solid var(--ligne);border-radius:var(--r);overflow:hidden;margin-top:48px}
+.faits div{background:var(--craie);padding:24px 22px}
+.faits strong{font-family:'Sora',sans-serif;font-size:31px;display:block;letter-spacing:-.035em}
+.faits p{font-size:14.5px;color:var(--encre-2);margin-top:3px;line-height:1.42}
+
+section{padding:74px 0}
+.shead{max-width:62ch;margin-bottom:36px}
+h2{font-size:clamp(29px,3.5vw,42px);margin:14px 0 14px}
+.shead p{color:var(--encre-2);font-size:18px}
+
+.offres{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.o{background:var(--blanc);border:1px solid var(--ligne);border-radius:var(--r);padding:26px 24px;position:relative}
+.o::before{content:"";position:absolute;left:24px;top:0;width:34px;height:4px;background:var(--rose);border-radius:0 0 4px 4px}
+.o h3{font-size:20px;margin:14px 0 8px}
+.o p{font-size:15.5px;color:var(--encre-2)}
+
+.horaires{background:var(--encre);color:var(--craie);border-radius:var(--r);overflow:hidden;display:grid;grid-template-columns:1fr 1fr}
+.hcol{padding:40px 44px}
+.hcol:first-child{border-right:1px solid rgba(255,255,255,.12)}
+.hcol h2{color:var(--craie);font-size:clamp(26px,3vw,36px)}
+.hcol .eyebrow{color:#F0A0C4}
+.hr{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.12);font-size:16.5px}
+.hr:last-child{border-bottom:0}
+.hr b{font-weight:600}
+.hr span{color:#E8C4D8;font-variant-numeric:tabular-nums}
+.hcol p{color:#C9C0D0;font-size:16px}
+
+.avis{background:var(--blanc);border:1px solid var(--ligne);border-radius:var(--r);padding:36px 40px;display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:center}
+.note strong{font-family:'Sora',sans-serif;font-size:52px;line-height:1;display:block}
+.note .et{color:var(--or);font-size:18px;letter-spacing:2px}
+.note p{font-size:14px;color:var(--encre-2);margin-top:4px}
+.mots{display:flex;flex-wrap:wrap;gap:10px}
+.mots span{background:var(--rose-c);color:var(--rose-f);border-radius:999px;padding:8px 16px;font-size:15px;font-weight:700}
+.mots i{font-style:normal;opacity:.65;font-weight:600}
+
+.ctc{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.box{background:var(--blanc);border:1px solid var(--ligne);border-radius:var(--r);padding:30px 32px}
+.box h3{font-size:20px;margin-bottom:16px}
+.ln{display:flex;gap:12px;padding:9px 0;font-size:16px;border-bottom:1px solid var(--ligne)}
+.ln:last-child{border-bottom:0}
+.ln b{flex:0 0 112px;font-weight:600;color:var(--encre-2);font-size:14.5px}
+.ln a{text-decoration:none;font-weight:600;color:var(--rose)}
+
+.aconf{display:inline-flex;align-items:center;gap:7px;background:#FDF5E6;border:1px dashed var(--ocre);color:#8A5210;font-size:13px;font-weight:600;border-radius:999px;padding:5px 13px;margin-top:14px}
+.aconf::before{content:"?";display:grid;place-items:center;width:16px;height:16px;border-radius:50%;background:var(--ocre);color:#fff;font-size:11px;font-weight:700}
+
+footer{background:var(--encre);color:#9D95A6;padding:46px 0 40px;font-size:14.5px}
+footer a{color:#DCD5E2}
+.fg{display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:flex-start}
+.fg b{color:var(--craie);font-family:'Sora',sans-serif;font-size:17px;display:block;margin-bottom:8px}
+
+.demo{position:fixed;right:16px;bottom:16px;z-index:90;background:var(--encre);color:var(--craie);text-decoration:none;font-size:12.5px;font-weight:700;letter-spacing:.07em;padding:10px 15px;border-radius:999px;box-shadow:0 8px 22px rgba(22,20,26,.3)}
+.demo:hover{background:var(--rose)}
+
+@media(max-width:980px){
+  .hgrid{grid-template-columns:1fr;gap:32px}
+  .faits{grid-template-columns:1fr 1fr}
+  .offres,.ctc{grid-template-columns:1fr}
+  .horaires{grid-template-columns:1fr}
+  .hcol:first-child{border-right:0;border-bottom:1px solid rgba(255,255,255,.12)}
+  nav a:not(.btel){display:none}
+  .avis{grid-template-columns:1fr;gap:20px;padding:30px 26px}
+}
+@media(max-width:560px){
+  body{font-size:16px}
+  .wrap{width:calc(100% - 32px)}
+  .faits{grid-template-columns:1fr}
+  .hero{padding:40px 0 0}
+  section{padding:54px 0}
+  .hd{gap:10px}
+  .disqueA{width:38px;height:38px;font-size:18px}
+  .mark b{font-size:15px}
+  .mark span span{font-size:10px}
+  .btel{padding:9px 13px;font-size:14px}
+  .hcol{padding:30px 24px}
+  .box{padding:26px 22px}
+  .ln{flex-direction:column;gap:1px}
+  .ln b{flex:none}
+  .ln a,.ln span{overflow-wrap:anywhere}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap hd">
+    <a class="mark" href="#top">
+      <span class="disqueA">A</span>
+      <span><b>Auto-École Priscilla</b><span>Charleville-Mézières</span></span>
+    </a>
+    <nav>
+      <a href="#formations">Formations</a>
+      <a href="#horaires">Horaires</a>
+      <a href="#avis">Avis</a>
+      <a href="#contact">Contact</a>
+      <a class="btel" href="tel:+33659006808">06 59 00 68 08</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<div class="wrap hero">
+  <div class="hgrid">
+    <div>
+      <p class="eyebrow">Place de la Gare · depuis 2011</p>
+      <h1>Le permis à Charleville, <em>avec Priscilla</em>.</h1>
+      <p class="lede">Permis B, conduite accompagnée, conduite supervisée, perfectionnement, et le code en salle comme sur internet. À huit minutes à pied du lycée Chanzy.</p>
+      <div class="cta">
+        <a class="b1" href="tel:+33659006808">06 59 00 68 08</a>
+        <a class="b2" href="mailto:pg08@live.fr">Écrire à Priscilla</a>
+      </div>
+    </div>
+    <div class="hvis">
+      <img src="vitrine-jour.jpg" width="1320" height="743" alt="La vitrine de l'Auto-École Priscilla, place de la Gare : lettrage rose sur les vitres et le disque A de l'auto-école.">
+    </div>
+  </div>
+
+  <div class="faits">
+    <div><strong>2011</strong><p>L'auto-école existe depuis le 1<sup>er</sup> juillet 2011.</p></div>
+    <div><strong>4,9</strong><p>Sur Google, 108 avis.</p></div>
+    <div><strong>100 %</strong><p>De recommandations sur Facebook, 128 avis.</p></div>
+    <div><strong>6</strong><p>Formations, du permis B au code sur internet.</p></div>
+  </div>
+</div>
+
+<section id="formations">
+  <div class="wrap">
+    <div class="shead">
+      <p class="eyebrow">Les formations</p>
+      <h2>Ce qui est écrit sur la vitrine, et rien d'autre.</h2>
+      <p>Les six formations affichées place de la Gare, reprises telles quelles.</p>
+    </div>
+    <div class="offres">
+      <div class="o"><h3>Permis B</h3><p>La formation classique à la conduite d'une voiture.</p></div>
+      <div class="o"><h3>Conduite accompagnée</h3><p>L'AAC, dès 15 ans, pour rouler avec un accompagnateur avant l'examen.</p></div>
+      <div class="o"><h3>Conduite supervisée</h3><p>Pour prendre de l'expérience avec un proche après la formation initiale.</p></div>
+      <div class="o"><h3>Perfectionnement</h3><p>Des heures en plus, après le permis ou avant un examen.</p></div>
+      <div class="o"><h3>Code en salle</h3><p>Cours pédagogique et séances de type examen, sur place.</p></div>
+      <div class="o"><h3>Code sur internet</h3><p>Pour réviser depuis chez soi, à son rythme.</p></div>
+    </div>
+    <p class="aconf">À compléter avec vous : les tarifs de chaque formation, et le forfait qui revient le plus souvent.</p>
+  </div>
+</section>
+
+<section id="horaires" style="padding-top:0">
+  <div class="wrap">
+    <div class="horaires">
+      <div class="hcol">
+        <p class="eyebrow">Le bureau</p>
+        <h2>Horaires d'ouverture</h2>
+        <div style="margin-top:22px">
+          <div class="hr"><b>Mardi</b><span>17h00 – 19h00</span></div>
+          <div class="hr"><b>Mercredi</b><span>14h00 – 19h00</span></div>
+          <div class="hr"><b>Jeudi</b><span>17h00 – 19h00</span></div>
+          <div class="hr"><b>Vendredi</b><span>16h00 – 18h00</span></div>
+          <div class="hr"><b>Samedi</b><span>13h00 – 15h00</span></div>
+        </div>
+      </div>
+      <div class="hcol">
+        <p class="eyebrow">En dehors</p>
+        <h2>Le reste du temps, elle conduit.</h2>
+        <p>Les horaires ci-contre sont ceux de l'accueil au bureau, affichés sur la porte. Pour une leçon, un renseignement ou une inscription, le plus simple reste le téléphone ou le mail.</p>
+        <div class="cta">
+          <a class="b1" style="background:var(--rose);color:#fff" href="tel:+33659006808">06 59 00 68 08</a>
+          <a class="b2" style="border-color:#6E6676;color:var(--craie)" href="mailto:pg08@live.fr">pg08@live.fr</a>
+        </div>
+      </div>
+    </div>
+    <p class="aconf">À vérifier : ces horaires sont relevés sur la porte de l'agence. S'ils ont changé depuis, il suffit de me le dire.</p>
+  </div>
+</section>
+
+<section id="avis" style="padding-top:0">
+  <div class="wrap">
+    <div class="avis">
+      <div class="note">
+        <strong>4,9</strong>
+        <div class="et">★★★★★</div>
+        <p>108 avis Google</p>
+      </div>
+      <div>
+        <p style="margin-bottom:14px;color:var(--encre-2)">Les mots qui reviennent le plus souvent dans vos avis Google :</p>
+        <div class="mots">
+          <span>permis <i>23</i></span>
+          <span>confiance <i>20</i></span>
+          <span>pédagogie <i>18</i></span>
+          <span>patience</span>
+        </div>
+      </div>
+    </div>
+    <p class="aconf">À choisir avec vous : deux ou trois avis complets à faire figurer ici, plutôt que les mots-clés.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="shead">
+      <p class="eyebrow">L'agence</p>
+      <h2>Place de la Gare, en face de l'arrêt.</h2>
+    </div>
+    <img src="vitrine-nuit.jpg" width="1455" height="819" alt="La vitrine de l'auto-école éclairée le soir, lettrage rose et panneau des formations." style="border-radius:var(--r);border:1px solid var(--ligne)">
+  </div>
+</section>
+
+<section id="contact" style="padding-top:0">
+  <div class="wrap">
+    <div class="shead">
+      <p class="eyebrow">Contact</p>
+      <h2>S'inscrire, ou simplement poser une question.</h2>
+    </div>
+    <div class="ctc">
+      <div class="box">
+        <h3>Nous joindre</h3>
+        <div class="ln"><b>Téléphone</b><a href="tel:+33659006808">06 59 00 68 08</a></div>
+        <div class="ln"><b>E-mail</b><a href="mailto:pg08@live.fr">pg08@live.fr</a></div>
+        <div class="ln"><b>Adresse</b><span>6 place de la Gare, 08000 Charleville-Mézières</span></div>
+        <div class="ln"><b>Repère</b><span>À huit minutes à pied du lycée Chanzy</span></div>
+        <p class="aconf">À confirmer : l'adresse de votre second point d'accueil, et les secteurs où vous assurez les leçons.</p>
+      </div>
+      <div class="box">
+        <h3>L'auto-école</h3>
+        <div class="ln"><b>Exploitante</b><span>Priscilla Gallot</span></div>
+        <div class="ln"><b>Création</b><span>1<sup>er</sup> juillet 2011</span></div>
+        <div class="ln"><b>SIRET</b><span>534 074 455 00039</span></div>
+        <div class="ln"><b>Activité</b><span>Enseignement de la conduite (85.53Z)</span></div>
+        <div class="ln"><b>Agrément</b><span>À compléter</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap fg">
+    <div>
+      <b>Auto-École Priscilla</b>
+      6 place de la Gare, 08000 Charleville-Mézières<br>
+      <a href="tel:+33659006808">06 59 00 68 08</a> · <a href="mailto:pg08@live.fr">pg08@live.fr</a>
+    </div>
+    <div>
+      <b>Informations</b>
+      <a href="mentions-legales.html">Mentions légales</a><br>
+      SIREN 534 074 455 · TVA FR75534074455
+    </div>
+    <div>
+      <b>Formations</b>
+      Permis B, conduite accompagnée, conduite supervisée,<br>
+      perfectionnement, code en salle et sur internet.
+    </div>
+  </div>
+</footer>
+
+<a class="demo" href="https://kraon.netlify.app/offre" target="_blank" rel="noopener">DÉMO KRAON</a>
+
+</body>
+</html>
